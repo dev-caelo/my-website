@@ -1,0 +1,70 @@
+@import url('https://fonts.googleapis.com/css?family=Raleway:200,300,400,700&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Great+Vibes&display=swap');
+
+*, *::before, *::after {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	text-decoration: none;
+}
+
+body {
+	padding: 0;
+	margin: 0;
+	background-color: #A5C0DF;
+	font-family: Raleway, sans-serif;
+	font-size: 1.2rem;
+	color: #E5E5E5;
+}
+
+.nameHead {
+	display: flex;
+	align-items: center;
+	transform-origin: 0;
+	transform: rotate(-4.94deg);
+	font-family: Great Vibes, sans-serif;
+	font-size: 2.5rem;
+	color: #A5C0DF;
+	margin-left:2rem;
+	margin-right:2rem;
+	margin-top:1rem;
+}
+
+.navHead ul {
+	display: flex;
+	margin: 0;
+	margin-right:2rem;
+	padding: 0;
+	list-style: none;
+}
+
+.navHead a {
+	color: #E1E7F0;
+	font-weight: 200;
+	text-decoration: none;
+	padding: 1.7rem;
+	padding-right: 0.8rem;
+	font-size: 1.24em;
+	height: 140px;
+}
+
+.navHead a:hover {
+	color: #A5C0DF;
+}
+
+.pageHeader {
+	width: 100%;
+	height: 80px;
+	background-color: #292F3E;
+	margin: 0;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.container {
+	max-width: 1200px;
+	margin: 0 auto;
+	padding: 0 40px;
+}
