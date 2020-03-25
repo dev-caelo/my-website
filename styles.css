@@ -119,6 +119,7 @@ header {
 
 	.pageHeader {
 		justify-content: flex-end;
+		font-size: 4vw;
 	}
 }
 
