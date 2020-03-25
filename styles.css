@@ -123,14 +123,14 @@ header {
 	}
 }
 
-@media (max-width: 400px) {
+@media (max-width: 450px) {
 	.pageHeader .nameHead {
 		display: none;
 	}
 
 	.pageHeader {
 		justify-content: flex-end;
-		font-size: 3vw;
+		font-size: 2vw;
 	}
 }
 
