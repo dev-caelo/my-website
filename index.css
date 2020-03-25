@@ -5,6 +5,7 @@
 	align-items: stretch;
 	justify-content: space-between;
 	flex-grow: 1;
+	min-height: 80vh;
 }
 
 .home-main-section .img-wrapper {
@@ -72,7 +73,7 @@
 		text-align: flex-end;
 		min-width: 5vw;
 		font-weight: 700;
-		font-size: 3em;
+		font-size: 10vw;
 		margin-bottom: 0.1em;
 		margin-top: 5em;
 		text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
@@ -81,7 +82,7 @@
 
 	.home-main-section .subtitle {
 		font-weight: 200;
-		font-size: 1.29em;
+		font-size: 5vw;
 		margin-bottom: 2rem;
 		text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 		margin-left: 4em;
