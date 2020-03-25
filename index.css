@@ -37,6 +37,22 @@
 		margin-left: 10em;
 	}
 
+	.home-main-section .title {
+		font-weight: 700;
+		font-size: 3.5em;
+		margin-bottom: 0.1em;
+		margin-top: 5em;
+		text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+	}
+
+	.home-main-section .subtitle {
+		font-weight: 200;
+		font-size: 1.5em;
+		margin-bottom: 2rem;
+		text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+		margin-left: 0.9em;
+	}
+
 }
 
 .nameFront {
