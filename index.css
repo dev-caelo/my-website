@@ -17,16 +17,17 @@
 
 .home-main-section .home-image {
 	margin: 0;
+	margin-left: 3em;
 	background-image: url('https://raw.githubusercontent.com/dev-caelo/myWeb/master/images/Landing_blue.png');
 	flex-grow: 1;
-	max-height: 100vh;
+	max-height: 80vh;
 	min-width: 30vh;
 	background-size: contain;
 	background-repeat: no-repeat;
 	background-position: bottom left;
 }
 
-@media (max-width: 900px){
+@media (max-width: 800px){
 	.home-main-section .img-wrapper {
 		display: none;
 	}
@@ -34,6 +35,15 @@
 	.home-main-section {
 		justify-content: center;
 	}
+}
+
+.nameFront {
+	margin: 0;
+	margin-top: 2em;
+	margin-right: 5em;
+	margin-left: 0.6em;
+	white-space: nowrap;
+    overflow: hidden;
 }
 
 .connect {
@@ -44,6 +54,7 @@
 	justify-content: space-between;
 	align-items: center;
 	opacity 0.8;
+	margin: 0;
 }
 
 .wordConnect {
