@@ -18,7 +18,7 @@ body {
 	font-size: 1.2rem;
 	color: #E5E5E5;
 	min-height:100vh;
-	min-width:100vh;
+	
 }
 
 header {
@@ -69,6 +69,7 @@ header {
 
 .pageHeader {
 	width: 100%;
+	min-width: 375px;
 	height: 5%;
 	background-color: #292F3E;
 	display: flex;
@@ -90,3 +91,37 @@ header {
 	margin-bottom: 2rem;
 	text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
+
+@media (max-width: 845px) {
+	.pageHeader {
+		width: 100vw;
+		min-width: 80vw;
+		height: 7vh;
+		background-color: #292F3E;
+		display: inline-flex;
+		align-items: center;
+	}
+
+	.pageHeader .nameHead {
+		justify-content: flex-start;
+	}
+
+	.pageHeader .navHead {
+		justify-content: flex-end;
+	}
+
+}
+
+@media (max-width: 680px) {
+	.pageHeader .nameHead {
+		display: none;
+	}
+
+	.pageHeader {
+		justify-content: flex-end;
+	}
+}
+
+
+
+
