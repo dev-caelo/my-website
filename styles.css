@@ -12,7 +12,7 @@
 body {
 	padding: 0;
 	margin: 0;
-	background-image: url('https://raw.githubusercontent.com/dev-caelo/myWeb/master/images/background1.png');
+	background-image: url('https://raw.githubusercontent.com/dev-caelo/myWeb/master/images/background1LIGHT.png');
 	background-color: #A5C0DF;
 	font-family: Raleway, sans-serif;
 	font-size: 1.2rem;
@@ -88,8 +88,5 @@ header {
 	font-weight: 300;
 	font-size: 1.2em;
 	margin-bottom: 2rem;
-	text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-}
-
 	text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 }

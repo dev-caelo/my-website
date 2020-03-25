@@ -1,1 +1,55 @@
-index.css
+@import url('https://fonts.googleapis.com/css?family=Raleway:200,300,400,700&display=swap');
+
+.home-main-section {
+	display: flex;
+	align-items: stretch;
+	justify-content: space-between;
+	flex-grow: 1;
+}
+
+.home-main-section .img-wrapper {
+	flex-grow: 1;
+	flex-direction: column;
+	display: flex;
+	align-items: stretch;
+	justify-content: flex-end;
+}
+
+.home-main-section .home-image {
+	margin: 0;
+	background-image: url('https://raw.githubusercontent.com/dev-caelo/myWeb/master/images/Landing_blue.png');
+	flex-grow: 1;
+	max-height: 100vh;
+	min-width: 30vh;
+	background-size: contain;
+	background-repeat: no-repeat;
+	background-position: bottom left;
+}
+
+@media (max-width: 900px){
+	.home-main-section .img-wrapper {
+		display: none;
+	}
+
+	.home-main-section {
+		justify-content: center;
+	}
+}
+
+.connect {
+	width: 100%;
+	height: 10%;
+	background-color: #292F3E;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	opacity 0.8;
+}
+
+.wordConnect {
+	margin: 0.7rem;
+	margin-left: 1rem;
+	font-weight: 700;
+	font-size: 1.58em;
+	letter-spacing: 0.02em;
+}
