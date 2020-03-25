@@ -123,6 +123,17 @@ header {
 	}
 }
 
+@media (max-width: 400px) {
+	.pageHeader .nameHead {
+		display: none;
+	}
+
+	.pageHeader {
+		justify-content: flex-end;
+		font-size: 3vw;
+	}
+}
+
 
 
 
