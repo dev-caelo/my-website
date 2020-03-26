@@ -56,6 +56,39 @@
 	letter-spacing: 0.02em;
 }
 
+.navBot a {
+	color: #E1E7F0;
+	font-weight: 200;
+	text-decoration: none;
+	padding-right: 0.8rem;
+	font-size: 1.2em;
+	letter-spacing: 0.02em;
+	height: 140px;
+	text-align: right;
+}
+
+.navBot a:hover {
+	color: #A5C0DF;
+}
+
+.navBot ul {
+	display: flex;
+}
+
+.navBot img {
+	width: 2.5em;
+	height: 2.5em;
+	margin: 0;
+	mix-blend-mode: normal;
+}
+
+.navBot .TwitLOGO {
+	width: 1.5em;
+	height: 1.4em;
+	margin: 0;
+	margin-top: 0.5em;
+	mix-blend-mode: normal;
+}
 @media (max-width: 845px){
 
 	.home-main-section .img-wrapper {
