@@ -128,9 +128,9 @@ header {
 		display: none;
 	}
 
-	.pageHeader {
+	.pageHeader { /* ok man i give up */
 		justify-content: flex-end;
-		font-size: 5em;
+		font-size: 1em;
 	}
 }
 
