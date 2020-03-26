@@ -75,7 +75,7 @@
 	display: flex;
 }
 
-.navBot img {
+.navBot .IGLOGO {
 	max-width: 16vw;
 	max-height: 9vh;
 	margin: 0;
@@ -89,6 +89,7 @@
 	margin-top: 2vh;
 	mix-blend-mode: normal;
 }
+
 @media (max-width: 845px){
 
 	.home-main-section .img-wrapper {
