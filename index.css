@@ -90,6 +90,13 @@
 	mix-blend-mode: normal;
 }
 
+.copyrightNotice {
+	font-weight: 200;
+	font-size: 10px;
+	background-color: #292F3E;
+	text-align: no;
+}
+
 @media (max-width: 845px){
 
 	.home-main-section .img-wrapper {
