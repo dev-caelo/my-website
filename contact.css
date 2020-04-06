@@ -1,33 +1,30 @@
 @import url('https://fonts.googleapis.com/css?family=Raleway:200,300,400,700&display=swap');
 
 .home-main-section {
+	width: 100%;
 	margin: 0;
 	margin-left: 20px;
 	text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
 
+.contactImage {
+	display: none;
+}
+
 .home-main-section .IGLOGO {
-	max-width: 100px;
-	max-height: 100px;
+	max-width: 150px;
+	min-height: 150px;
 	margin: 0;
 	mix-blend-mode: normal;
 }
 
 .home-main-section .TwitLOGO {
-	max-width: 60px;
-	max-height: 60px;
+	max-width: 100px;
+	min-height: 90px;
 	margin: 0;
-	margin-left: 20px;
+	margin-left: 30px;
 	mix-blend-mode: normal;
-}
-
-.home-main-section .contact-image {
-	width: 700px;
-	height: 940px;
-	margin-left: 100px;
-	
-	justify-content: flex-end;
-	background-image: url('https://raw.githubusercontent.com/dev-caelo/myWeb/master/images/Contact1blue.png');
+	margin-right: 20px;
 }
 
 .home-main-section .contactHeader {
@@ -36,4 +33,34 @@
 	margin-bottom: 30px;
 	font-weight: 700;
 	font-size: 60px;
+}
+
+.home-main-section a {
+	color: #E5E5E5;
+	font-size: 22px;
+}
+
+.home-main-section ul {
+	margin-left: 55px;
+}
+
+@media (min-width: 1000px) {
+	.home-main-section {
+		column-count: 2;
+	}
+
+	.contactWrapper {
+		justify-content: right;
+	}
+
+	.contactImage {
+		position: fixed;
+		margin: 0;
+		right: 30px;
+		left: 30px;
+		bottom: 0;
+		display: flex;
+		max-width: 850px;
+		max-height: 1100px;
+	}
 }
