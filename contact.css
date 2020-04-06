@@ -47,6 +47,7 @@
 @media (min-width: 1000px) {
 	.home-main-section {
 		column-count: 2;
+		max-height: 50vh;
 	}
 
 	.contactWrapper {
