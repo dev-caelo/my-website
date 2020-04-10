@@ -73,6 +73,11 @@
 }
 
 @media (max-width: 680px) {
+
+	.column {
+  	  width: 100%;
+  	}
+
 	.email {
 		display: none;
 	}

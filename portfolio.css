@@ -95,6 +95,10 @@ body {
 }
 
 @media (max-width: 500px) {
+	.column {
+  	  width: 100%;
+  	}
+  	
 	.textBody {
 		font-size: 16px;
 		line-height: 22px;
