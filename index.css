@@ -44,8 +44,9 @@
 	display: flex;
 	justify-content: space-between;
 	align-items: center;
-	opacity 0.8;
 	margin: 0;
+	opacity: 0.9;
+	filter: blur(0.2px);
 }
 
 .wordConnect {
@@ -94,6 +95,8 @@
 	font-weight: 200;
 	font-size: 10px;
 	background-color: #292F3E;
+	opacity: 0.9;
+	filter: blur(0.2px);
 	text-align: no;
 }
 
