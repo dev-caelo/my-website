@@ -118,8 +118,8 @@ header {
 	}
 
 	.pageHeader {
-		justify-content: flex-end;
-		font-size: 3.8vw;
+		justify-content: center;
+		font-size: 3.1vw;
 	}
 }
 
