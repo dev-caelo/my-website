@@ -74,10 +74,6 @@
 
 @media (max-width: 680px) {
 
-	.column {
-  	  width: 100%;
-  	}
-
 	.email {
 		display: none;
 	}
@@ -86,6 +82,7 @@
 		max-width: 150px;
 		min-height: 150px;
 		mix-blend-mode: normal;
+		margin-bottom: 20px;
 	}
 
 	.home-main-section .TwitLOGO {
