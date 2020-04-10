@@ -93,3 +93,26 @@ body {
 		max-width: 100vw;
 	}
 }
+
+@media (max-width: 500px) {
+	.textBody {
+		font-size: 16px;
+		line-height: 22px;
+	}
+
+	.textBodyC1Bot {
+		font-size: 18px;
+	}
+
+	.className {
+		margin-top: 50px;
+		margin-bottom: 70px;
+		font-size: 30px;
+	}
+
+	.sideText {
+		letter-spacing: 0.02em;
+		font-size: 16px;
+		margin-bottom: 30px;
+	}
+}
