@@ -48,6 +48,7 @@ body {
 .className {
 	margin-top: 50px;
 	margin-bottom: 70px;
+	font-size: 40px;
 }
 
 .sideText {
@@ -60,19 +61,19 @@ body {
 	.textBody {
 		line-height: 42px;
 		letter-spacing: 0.02em;
-		font-size: 22px;
+		font-size: 24px;
 	}
 
 	.textBodyC1Bot {
 		margin-top: 50px;
 		line-height: 29px;
-		font-size: 22px;
+		font-size: 24px;
 	}
 
 	.sideText {
 		line-height: 42px;
 		letter-spacing: 0.02em;
-		font-size: 22px;
+		font-size: 24px;
 		margin-bottom: 30px;
 	}
 }
