@@ -76,7 +76,6 @@ header {
 	justify-content: space-between;
 	align-items: center;
 	opacity: 0.9;
-	filter: blur(0.2px);
 }
 
 .title {
@@ -134,7 +133,6 @@ header {
 	.pageHeader .navHead { /* ok man i give up */
 		justify-content: flex-end;
 		font-size: 0.7em;
-		filter: blur(0);
 	}
 }
 
