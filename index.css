@@ -6,6 +6,7 @@
 	justify-content: space-between;
 	flex-grow: 1;
 	min-height: 60vh;
+	overflow-x: hidden;
 }
 
 .home-main-section .img-wrapper {
@@ -19,22 +20,104 @@
 .home-main-section .home-image {
 	margin: 0;
 	margin-left: 3em;
-	background-image: url('https://raw.githubusercontent.com/dev-caelo/myWeb/master/images/Landing_blue.png');
+	background-image: url('images/Landing_blue.png');
 	flex-grow: 1;
 	max-height: 80vh;
 	min-width: 30vh;
 	background-size: contain;
 	background-repeat: no-repeat;
 	background-position: bottom left;
+
+	animation-name: image-fade;
+ 	animation-duration: 6s;
+}
+
+@keyframes image-fade {
+	0% {opacity:0;}
+	100% {opacity:1;}
+}
+
+@-webkit-keyframes image-fade {
+	0% {opacity:0;}
+	100% {opacity:1;}
+}
+
+@-moz-keyframes image-fade {
+	0% {opacity:0;}
+	100% {opacity:1;}
+}
+
+@-o-keyframes image-fade {
+	0% {opacity:0;}
+	100% {opacity:1;}
+}
+
+@-ms-keyframes image-fade {
+	0% {opacity:0;}
+	100% {opacity:1;}
+}
+
+div.line {
+	width: 90%;
+	height: 0.5%;
+
+	margin-left: auto;
+	margin-right: auto;
+
+	background-image: url(images/line.png);
+	background-size: 100% 100%;
+	background-repeat: no-repeat;
 }
 
 .nameFront {
+	text-align: center;
 	margin: 0;
-	margin-top: 2em;
-	margin-right: 5em;
-	margin-left: 0.6em;
-	white-space: nowrap;
-    overflow: hidden;
+	margin-bottom: 0.5%;
+}
+
+.subtitle {
+	text-align: center;
+	mix-blend-mode: hard-light;
+	margin: 0;
+	margin-top: 1%;
+}
+
+.name {
+	position: relative;
+	width: 600px;
+	min-width: 500px;
+ 	height: 200px;
+
+ 	animation-name: name-shift;
+ 	animation-duration: 3s;
+
+	margin-right: 255px;
+	margin-top: 150px;
+}
+
+@keyframes name-shift {
+	0%   {left:900px; top:0px;}
+  100% {left:0px; top:0px;}
+}
+
+@-webkit-keyframes name-shift {
+	0%   {left:900px; top:0px;}
+  100% {left:0px; top:0px;}
+}
+
+@-moz-keyframes name-shift {
+	0%   {left:900px; top:0px;}
+  100% {left:0px; top:0px;}
+}
+
+@-o-keyframes name-shift {
+	0%   {left:900px; top:0px;}
+  100% {left:0px; top:0px;}
+}
+
+@-ms-keyframes name-shift {
+	0%   {left:900px; top:0px;}
+  100% {left:0px; top:0px;}
 }
 
 .connect {
@@ -104,32 +187,19 @@
 		display: none;
 	}
 
-	.home-main-section {
-		justify-content: flex-end;
-		display: center;
-		min-width: 100vw;
-		min-height: 50vh;
-		margin: 0;
+	.name {
+		margin-left: auto;
+		margin-right: auto;
+
+		width: 80%;
 	}
 
-	.home-main-section .title {
-		text-align: flex-end;
-		min-width: 5vw;
-		font-weight: 700;
+	.nameFront {
 		font-size: 10vw;
-		margin-bottom: 0.1em;
-		margin-top: 5em;
-		text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-		margin-right: 8vw;
 	}
 
-	.home-main-section .subtitle {
-		font-weight: 200;
+	.subtitle {
 		font-size: 5vw;
-		margin-bottom: 2rem;
-		text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-		margin-left: 4em;
-		margin-right: 2em;
 	}
 
 	.connect {
@@ -139,5 +209,3 @@
 
 
 }
-
-
