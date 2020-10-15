@@ -2,6 +2,44 @@ body {
 	font-weight: 300;
 }
 
+div.container {
+	width: 100%;
+	height: 95%;
+
+	background-color: grey;
+}
+
+/* top section (title and date) */
+div.portfolioTitle {
+	width: 300px;
+	height: 20%;
+	float: left;
+
+	margin-bottom: 30px;
+}
+
+.portfolioTitle h1 {
+	font-size: 60px;
+	float: right;
+
+	text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+
+	margin-top: 1vw;
+}
+
+.portfolioTitle p {
+	font-size: 16px;
+	float: right;
+
+}
+
+/* portfolio body portion */
+div.portfolioBody {
+	width: 100%;
+	height: 85%;
+	float: right;
+}
+
 .column {
   float: left;
   width: 50%;
@@ -18,105 +56,91 @@ body {
   clear: both;
 }
 
-.portfolioTitle {
-	max-width: 340px;
-	text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-	text-align: right;
-	font-size: 25px;
-	color: #E5E5E5;
-	font-weight: 300;
-	margin-bottom: 20px;
+/* portfolio items */
+
+.item {
+	position: relative;
+
+	width: 80%;
+	max-width: 1000px;
+	height: 15vw;
+	max-height: 180px;
+	background-color: grey;
+
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 0.5vw;
+	margin-bottom: 0.5vw;
+
+	box-shadow: 0 0 1px #292F3E;
 }
 
-.portfolioTitle h2 {
-	max-width: 110px; 
-	font-size: 70px;
-	font-weight: 700;
-	margin-left: 50px;
-	margin-top: 20px;
+.item:hover {
+	cursor: pointer;
 }
 
-.textBody {
-	font-size: 18px;
-	line-height: 22px;
+.itemDrop {
+	display: none;
+	position: absolute;
+
+	width: 80%;
+	max-width: 1000px;
+	height: 15vw;
+	max-height: 180px;
+	background-color: white;
+
+	margin-left: auto;
+	margin-right: auto;
+
+	transition-duration: 0.5s;
 }
 
-.textBodyC1Bot {
-	font-size: 18px;
+/* port: curricullege */
+
+.curricullege {
+	background-image: url(images/curricullege.png);
+	background-repeat: no-repeat;
+	background-size: 60% 50%;
+	background-position: center;
 }
 
-.className {
-	margin-top: 50px;
-	margin-bottom: 70px;
-	font-size: 40px;
+.orange {
+	background-color: #FFC876;
+	transition-duration: 0.5s;
 }
 
-.sideText {
-	letter-spacing: 0.02em;
-	font-size: 18px;
-	margin-bottom: 30px;
+.orange:hover {
+	background-color: #DBA85D;
+	transition-duration: 0.5s;
 }
 
-@media (min-width: 970px) {
-	.textBody {
-		line-height: 42px;
-		letter-spacing: 0.02em;
-		font-size: 24px;
+.itemDrop.curricullege {
+	background: none;
+	background-color: white;
+}
+
+.curricullege:hover .itemDrop.curricullege {
+	display: block;
+}
+
+@media (max-width: 845px) {
+
+	div.portfolioTitle {
+		float: left;
+		width: 100%;
 	}
 
-	.textBodyC1Bot {
-		margin-top: 50px;
-		line-height: 29px;
-		font-size: 24px;
-	}
-
-	.sideText {
-		line-height: 42px;
-		letter-spacing: 0.02em;
-		font-size: 24px;
-		margin-bottom: 30px;
-	}
-}
-
-@media (max-width: 680px) {
-	.portfolioTitle {
-		margin: 0;
-		margin-top: 15px;
-		margin-bottom: 15px;
+	.portfolioTitle h1 {
+		float: none;
 		text-align: center;
-		max-width: 100vw;
 	}
 
-	.portfolioTitle h2 {
-		margin: 0;
-		text-align: center;
-		max-width: 100vw;
+	.portfolioTitle p {
+		display: none;
 	}
-}
 
-@media (max-width: 500px) {
 	.column {
-  	  width: 100%;
-  	}
-  	
-	.textBody {
-		font-size: 16px;
-		line-height: 22px;
-	}
-
-	.textBodyC1Bot {
-		font-size: 18px;
-	}
-
-	.className {
-		margin-top: 50px;
-		margin-bottom: 70px;
-		font-size: 30px;
-	}
-
-	.sideText {
-		letter-spacing: 0.02em;
-		font-size: 16px;
-		margin-bottom: 30px;
+		width: 100%;
+		float: none;
 	}
 }
