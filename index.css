@@ -197,6 +197,7 @@ div.line {
 		margin-right: auto;
 
 		width: 80%;
+		animation: none;
 	}
 
 	.nameFront {
