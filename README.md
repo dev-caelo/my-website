@@ -10,3 +10,4 @@ Original Landing Page [until August 2021]
 
 Current Landing Page Design
 <img width="871" alt="Screen Shot 2021-07-05 at 9 14 54 PM" src="https://user-images.githubusercontent.com/58437950/124541345-0d407500-ddd6-11eb-85a0-f6e2aeaf6303.png">
+- This version utilizes Bootstrap for website responsiveness.
