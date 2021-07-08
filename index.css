@@ -18,7 +18,12 @@ nav.pageHeader {
 
 .text-light {
 	font-weight: 200;
-	font-size: 36px;
+	font-size: 40px;
+}
+
+.text-light-small {
+	font-weight: 200;
+	font-size: 24px;
 }
 
 .text-header {
@@ -41,6 +46,16 @@ nav.pageHeader {
 	margin-bottom: 10px;
 }
 
+img.homeImage {
+	width: 384px;
+	height: 384px;
+}
+
+img.aboutImage {
+	width: 300px;
+	height: 300px;
+}
+
 a.mediaIcon {
 	margin-left: 10px;
 	margin-right: 10px;
@@ -56,6 +71,10 @@ li.subList {
 	font-family: Raleway, sans-serif;
 	font-size: 26px;
 	color: white;
+}
+
+.listHeader {
+	font-size: 3.5rem;
 }
 
 @media (max-width:  991px) {
@@ -77,8 +96,38 @@ li.subList {
 		font-size: 40px;
 	}
 
+	.text-light {
+		font-size: 16px;
+	}
+
+	.text-light-small {
+		font-size: 16px;
+	}
+
 	.text-header {
 		padding-top: 10px;
 		padding-bottom: 10px;
+	}
+
+	img.homeImage {
+		width: 250px;
+		height: 250px;
+	}
+
+	img.aboutImage {
+		width: 230px;
+		height: 230px;
+	}
+
+	.listHeader {
+		font-size: 2rem;
+	}
+
+	li.subList {
+		font-size: 13px;
+	}
+
+	.fs-4 {
+		font-size: 13px;
 	}
 }
