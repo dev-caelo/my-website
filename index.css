@@ -56,6 +56,11 @@ img.aboutImage {
 	height: 300px;
 }
 
+img.mediaImage {
+	width: 58px;
+	height: 58px;
+}
+
 a.mediaIcon {
 	margin-left: 10px;
 	margin-right: 10px;
@@ -119,15 +124,20 @@ li.subList {
 		height: 230px;
 	}
 
+	img.mediaImage {
+		width: 36px;
+		height: 36px;
+	}
+
 	.listHeader {
-		font-size: 2rem;
+		font-size: 1.6rem;
 	}
 
 	li.subList {
-		font-size: 13px;
+		font-size: 12px;
 	}
 
 	.fs-4 {
-		font-size: 13px;
+		font-size: 12px;
 	}
 }
