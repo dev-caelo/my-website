@@ -1,43 +1,301 @@
-<!DOCTYPE HTML>
-<html lang = "en">
-<head>
-	<meta charset="UTF-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<meta http-equiv="X-UA-Compatible" content="ie=edge">
-	<link href="styles.css" rel="stylesheet">
-	<link href="index.css" rel="stylesheet">
-	<title>Carlo Dino</title>
-</head>
-<body class="full-height-grow">
-	<header class=pageHeader>
-		<div class="nameHead">Carlo Dino</div>
-		<nav class="navHead">
-			<ul>
-				<li><a href="index.html">home</a></li>
-				<li><a href="portfolio.html">portfolio</a></li>
-				<li><a href="about.html">about</a></li>
-				<li><a href="contact.html">contact</a></li>
-			</ul>
-		</nav>
-	</header>
-	<section class="home-main-section">
-		<div class="img-wrapper">
-			<div class="home-image"></div>
+<!--
+changelog:
+
+7/8/21 - v.1.0
+- website redesign completed
+- first full version
+
+-->
+
+<DOCTYPE HTML>
+	<html lang="en">
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<meta http-equiv="X-UA-Compatible" content="ie-edge">
+		<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+		<link rel="preconnect" href="https://fonts.googleapis.com">
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+		<link href="https://fonts.googleapis.com/css2?family=Raleway:wght@200;300;700&display=swap" rel="stylesheet">
+		<link href="index.css" rel="stylesheet">
+		<title>Carlo Dino</title>
+	</head>
+	<body>
+		<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+
+		<!--above is the JS needed for bootstrap's cdn to run, the website code begins below-->
+
+		<nav class="navbar navbar-expand-sm navbar-dark sticky-top pageHeader"> <!--sticky navbar-->
+			<div class="container-fluid">
+			<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+			    <span class="navbar-toggler-icon"></span>
+			  </button>
+				<div class="collapse navbar-collapse" id="navbarNav">
+		  			<div class="navbar-nav container-fluid justify-content-center">
+						<a class="nav-link raleway text-header" href="#Home">home</a>
+						<a class="nav-link raleway text-header" href="#About">about</a>
+						<a class="nav-link raleway text-header" href="#Portfolio">portfolio</a>
+						<a class="nav-link raleway text-header" href="#Contact">contact</a>
+					</div>
+		  		</div>
+			</div>
+		</nav>	
+		<div class="container" id="Home"> <!--home page-->
+			<div class="row"> <!--top of home page-->
+				<div class="col-lg-7 col-12 paddingLeftBody"> <!--home body left-->
+					<div class="d-flex justify-content-center">
+						<h1 class="raleway text-bold">Carlo Dino</h1>
+					</div>
+					<div class="d-flex justify-content-center">
+						<div class="line" style="max-width: 400px;"></div>
+					</div>
+					<div class="d-flex justify-content-center">
+						<p class="fs-3 fw-lighter raleway text-light" style="margin-bottom: 5px;">First Year CS Student</p>
+					</div>
+					<div class="d-flex justify-content-center">
+						<p class="fs-3 fw-lighter raleway text-light" style="margin-bottom: 10px;">Stanford University</p>
+					</div>
+					<div class="d-flex justify-content-center">
+						<div class="line" style="max-width: 400px;"></div>
+					</div>
+				</div>
+				<div class="col-lg-5 col-12" style="padding-top: 40px;"> <!--home body right-->
+					<div class="row"> <!--home image section-->
+						<div class="d-flex justify-content-lg-start justify-content-center">
+							<img src="images/homeImage.png" width="384px" height="384px">
+						</div>
+					</div>
+					<div class="row"> <!--media icons section-->
+						<div class="d-flex justify-content-lg-start justify-content-center ms-lg-4 ms-0" style="padding-top: 30px;">
+							<a href="mailto:cdino@stanford.edu" class="mediaIcon">
+								<img src="images/email-logo.png" width="58px" height="58px">
+							</a>
+							<a href="https://www.linkedin.com/in/carloamiodino" target="_blank" rel="noopener noreferrer" class="mediaIcon">
+								<img src="images/linkedin-logo.png" width="58px" height="58px">
+							</a>
+							<a href="https://www.instagram.com/carlo.dino_/?hl=en" target="_blank" rel="noopener noreferrer" class="mediaIcon">
+								<img src="images/ig-logo.png" width="58px" height="58px">
+							</a>
+							<a href="https://github.com/dev-caelo" target="_blank" rel="noopener noreferrer" class="mediaIcon">
+								<img src="images/github-logo.png" width="58px" height="58px">
+							</a>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="row mt-5"> <!--bottom of home page-->
+				<div class="d-flex justify-content-center">
+					<div class="line"></div>
+				</div>
+				<div class="d-flex justify-content-center mt-3 mb-5">
+					<a href="#About">
+						<img src="images/arrow.png" width="55px" height="55px"> 
+					</a>
+				</div>
+			</div>
 		</div>
-		<div class="name">
-			<h1 class="title nameFront">Carlo Dino</h1>
-			<div class="line"></div>
-			<p class="subtitle">Student. Aspiring Developer.</p>
+		<div class="container-fluid pb-5" id="About" style="background-color: #3F3944;"> <!--about page-->
+			<div class="row pt-5"> <!--aboutImage section-->
+				<div class="d-flex justify-content-center pt-5"> <!--image div-->
+					<img src="images/aboutImage.png" width="300px" height="300px">
+				</div>	
+			</div>
+			<div class="row mx-lg-5 mx-0"> <!--bio section-->
+				<div class="d-flex justify-content-center mt-5">
+					<h1 class="raleway text-bold">about me</h1>
+				</div>
+				<div class="d-flex justify-content-center mt-4 px-5">
+					<p class="raleway text-light text-center mx-lg-5 px-lg-2">Hello! My name is Carlo Dino and I am currently a first-year Computer Science student at Stanford University, intending a focus on Artificial Intelligence.</p>
+				</div>
+				<div class="d-flex justify-content-center pt-lg-5 pt-3 px-5">
+					<p class="raleway text-light text-center mx-lg-5">Other than that, I really like coffee, I am -very- nearsighted, and I really like coffee—wait...</p>
+				</div>
+				<div class="d-flex justify-content-center pt-3 px-5">
+					<p class="raleway text-light text-center mx-lg-5">= = =</p>
+				</div>
+			</div>
+			<div class="row"> <!--skillset section-->
+				<div class="d-flex justify-content-center mt-5">
+					<h1 class="raleway text-bold">skillset</h1>
+				</div>
+				<div class="container-fluid pb-4">
+					<div class="row mt-4"> <!--container for items-->
+						<div class="col-lg-4 col-sm-12 ps-lg-5 mt-lg-0 mt-4"> <!--html col-->
+							<div class="d-flex justify-content-center">
+								<img src="images/html-logo.png" width="168px" height="187px">
+							</div>
+							<div class="d-flex justify-content-center">
+								<p class="raleway text-center text-light mt-2">HTML/CSS</p>
+							</div>
+							<div class="d-flex justify-content-center">
+								<p class="raleway text-center text-light">~2 years</p>
+							</div>
+							<div class="d-flex justify-content-center">
+								<p class="raleway text-center text-light fs-4 mt-3">+some experience with<br> Bootstrap and Javascript</p>
+							</div>
+						</div>
+						<div class="col-lg-4 col-sm-12 mt-lg-0 mt-4"> <!--java col-->
+							<div class="d-flex justify-content-center">
+								<img src="images/java-logo.png" width="140px" height="187px">
+							</div>
+							<div class="d-flex justify-content-center">
+								<p class="raleway text-center text-light mt-2">Java</p>
+							</div>
+							<div class="d-flex justify-content-center">
+								<p class="raleway text-center text-light">~1 year</p>
+							</div>
+							<div class="d-flex justify-content-center">
+								<p class="raleway text-center text-light fs-4 mt-3">+class experience with Python and C++</p>
+							</div>
+							<div class="d-flex justify-content-center">
+								<p class="raleway text-center text-light fs-4 mt-3">+experience with Github</p>
+							</div>
+						</div>
+						<div class="col-lg-4 col-sm-12 pe-lg-5 mt-lg-0 mt-4"> <!--figma col-->
+							<div class="d-flex justify-content-center">
+								<img src="images/figma-logo.png" width="140px" height="187px">
+							</div>
+							<div class="d-flex justify-content-center">
+								<p class="raleway text-center text-light mt-2">Figma</p>
+							</div>
+							<div class="d-flex justify-content-center">
+								<p class="raleway text-center text-light">~1 year</p>
+							</div>
+							<div class="d-flex justify-content-center">
+								<p class="raleway text-center text-light fs-4 mt-3">+professional experience in website<br>creation from Figma designs</p>
+							</div>
+							<div class="d-flex justify-content-center">
+								<p class="raleway text-center text-light fs-4 mt-3">+class experience with Adobe Photoshop</p>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
 		</div>
-	</section>
-	<footer class="connect">
-		<div class="wordConnect">CONNECT</div>
-		<nav class="navBot">
-			<ul>
-				<li><a href="https://www.instagram.com/carlo.dino_/"><img class="IGLOGO"alt="Instagram" src="images/igLogo.png"></a></li>
-				<li><a href="https://twitter.com/dev_caelo"><img class="TwitLOGO" alt="Twitter" src="images/twitterLogo.png"></a></li>
-			</ul>
-		</nav>
-	</footer>
-	<div class="copyrightNotice">@ Copyright 2020 Carlo Dino, All Rights Reserved</div>
+		<div class="container-fluid pt-5 pb-5" id="Portfolio"> <!--portfolio page-->
+			<div class="d-flex justify-content-center">
+				<h1 class="raleway text-bold">portfolio</h1>
+			</div>
+			<div class="d-flex justify-content-center mt-3 mb-5">
+				<div class="line" style="max-width: 559px;"></div>
+			</div>
+			<div class="container px-5"> <!--list div-->
+				<ul class="px-5">
+					<li class="boldList"> <!--curricullege-->
+						<h1 class="fw-bold" style="font-size: 3.5rem;">Curricullege</h1>
+						<p class="fw-bold fs-4">Otay Ranch Public Library : Apr 2020 - Sept 2020</p>
+						<p class="fw-bold fs-4">Web Developer:</p>
+						<ul>
+							<li class="subList">
+								<p>Developed prototype designs with team on Figma</p>
+							</li>
+							<li class="subList">
+								<p>Implemented final webpage designs with HTML and CSS</p>
+							</li>
+							<li class="subList">
+								<p>Implemented website responsiveness for mobile devices and wide-screens</p>
+							</li>
+						</ul>
+					</li>
+					<li class="boldList pt-5"> <!--google code-in-->
+						<h1 class="fw-bold" style="font-size: 3.5rem;">Google Code-In 2019</h1>
+						<p class="fw-bold fs-4">Google : Dec 2019 - Jan 2020</p>
+						<p class="fw-bold fs-4">Open Source Development</p>
+						<ul>
+							<li class="subList">
+								<p>Implemented a scientific calculator into Java utilizing Swing libraries</p>
+							</li>
+							<li class="subList">
+								<p>Performed simple communication with Google Firebase</p>
+							</li>
+							<li class="subList">
+								<p>Communicated with Code-In mentors on assigned tasks</p>
+							</li>
+						</ul>
+					</li>
+					<li class="boldList pt-5"> <!--classes-->
+						<h1 class="fw-bold" style="font-size: 3.5rem;">Other</h1>
+						<p class="fw-bold fs-4">Relevant Coursework:</p>
+						<ul>
+							<li class="subList">
+								<p>CS106b: Programming Abstractions ( fall 2021 )</p>
+								<ul style="list-style-type: circle;">
+									<li class="subList">
+										<p>Learned basics of Data Structures and Algorithms</p>
+									</li>
+									<li class="subList">
+										<p>Introduction to C++ and implementation in projects</p>
+									</li>
+								</ul>
+							</li>
+							<li class="subList">
+								<p>Skillshare: Intro to Web Development ( 2020 )</p>
+							</li>
+							<li class="subList">
+								<p>AP Computer Science A / CS106a ( 2019-2020 )</p>
+								<ul style="list-style-type: circle;">
+									<li class="subList">
+										<p>Learned basic OOP design through Java coursework and projects</p>
+									</li>
+									<li class="subList">
+										<p>Scored a 5 on test; class credited for CS106a</p>
+									</li>
+								</ul>
+							</li>
+						</ul>
+					</li>
+				</ul>
+			</div>
+			<div class="d-flex justify-content-center mt-5 mb-5">
+				<div class="line" style="max-width: 559px;"></div>
+			</div>
+		</div>
+		<div class="container-fluid pt-5 pb-5" id="Contact" style="background-color: #3F3944;"> <!--contact page-->
+			<div class="d-flex justify-content-center pt-3">
+				<h1 class="raleway text-bold">contact</h1>
+			</div>
+			<div class="d-flex justify-content-center mt-2 pb-5">
+				<div class="line" style="max-width: 559px;"></div>
+			</div>
+			<div class="container-fluid">
+				<div class="row"> <!--media icons section-->
+					<div class="col-lg-2 col-sm-0"></div>
+					<div class="col-lg-2 col-sm-6 pb-5">
+						<div class="d-flex justify-content-center">
+							<a href="mailto:cdino@stanford.edu" class="mediaIcon">
+								<img src="images/email-logo.png" width="104px" height="104px">
+							</a>
+						</div>
+					</div>
+					<div class="col-lg-2 col-sm-6 pb-5">
+						<div class="d-flex justify-content-center">
+							<a href="mailto:cdino@stanford.edu" class="mediaIcon">
+								<img src="images/linkedin-logo.png" width="100px" height="104px">
+							</a>
+						</div>
+					</div>
+					<div class="col-lg-2 col-sm-6 pb-5">
+						<div class="d-flex justify-content-center">
+							<a href="mailto:cdino@stanford.edu" class="mediaIcon">
+								<img src="images/ig-logo.png" width="104px" height="104px">
+							</a>
+						</div>
+					</div>
+					<div class="col-lg-2 col-sm-6 pb-5">
+						<div class="d-flex justify-content-center">
+							<a href="mailto:cdino@stanford.edu" class="mediaIcon">
+								<img src="images/github-logo.png" width="104px" height="104px">
+							</a>
+						</div>
+					</div>
+					<div class="col-lg-2 col-sm-0"></div>
+				</div>
+			</div>
+		</div>
+		<div class="container-fluid pt-5 pb-5"> <!--footer-->
+			<div class="d-flex justify-content-center">
+				<p class="raleway fw-bold fs-1">@ Carlo Dino</p>
+			</div>
+		</div>
+	</div>
 </body>
