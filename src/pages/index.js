@@ -7,7 +7,7 @@ const pageStyles = {
 
 const IndexPage = () => {
   return (
-    <main className="h-[1000px] w-full text-[#c1bcc4] bg-customPurpleBG p-[30px] sm:p-[50px] md:px-[100px] lg:px-[250px] xl:px-[350px]" style={pageStyles}>
+    <main className="h-[1000px] w-full text-[#c1bcc4] bg-customPurpleBG scroll-smooth p-[30px] sm:p-[50px] md:px-[100px] lg:px-[250px] xl:px-[350px]" style={pageStyles}>
 
       {/* Top */}
 
@@ -30,15 +30,31 @@ const IndexPage = () => {
         </ul>
       </div>
       <div className="mb-3">
-        <h className="text-white text-4xl sm:text-5xl md:text-6xl font-bold">I am Carlo Dino.</h>
+        <h className="text-[#fffefc] text-4xl sm:text-5xl md:text-6xl font-bold">I am Carlo Dino.</h>
         <p className="text-xl sm:text-2xl md:text-3xl font-regular mt-3">Full-stack developer and aspiring AI researcher.</p>
       </div>
-      <div className="bg-[#c1bcc4] mt-10 w-24 h-1 lg:h-2"></div>
 
-      {/* Body */}
+      {/* Divider */}
+      <div className="bg-[#c1bcc4] mt-10 mb-8 w-24 h-1 lg:h-2"></div>
 
-      <div className="text-lg md:text-xl">
-        
+      {/* Introduction */}
+      <div className="text-md sm:text-lg md:text-xl mr-15">
+        <p className="leading-relaxed">
+          Hello there! My name is Carlo Dino and I am a full-stack engineer based in the Bay Area. I work to turn
+          innovative ideas into full-scale online applications to share across the web. I am currently an 
+          undergraduate student at Stanford, majoring in Computer Science with a focus on Artificial Intelligence.
+
+          <br></br><br></br>
+          I aim to combine my experience in full-stack development with my studies to engineer AI-powered experiences.
+        </p>
+      </div>
+
+      {/* Divider */}
+      <div className="bg-[#c1bcc4] mt-10 mb-8 w-24 h-1 lg:h-2"></div>
+
+      {/* Portfolio */}
+      <div id="portfolio">
+        <h className="text-lg sm:text-xl md:text-2xl font-bold text-[#fffefc] mt-3">Portfolio</h>
       </div>
 
     </main>

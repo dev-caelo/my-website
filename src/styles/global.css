@@ -2,6 +2,10 @@
 @tailwind components;
 @tailwind utilities;
 
+body {
+  background-color: #0f021a;
+}
+
 .text-oxygen {
   font-family: "Oxygen"
 }
