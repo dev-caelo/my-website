@@ -130,7 +130,7 @@ const IndexPage = () => {
             <p className="sm:text-lg group-hover:text-[#fffefc] duration-300 ease-in-out">2022 - 2023</p>
           </div>
           <a className="w-8/12 md:w-9/12 duration-300 ease-in-out" href="https://cesta.stanford.edu/research/epicconnect" target="_blank" rel="noreferrer noopener" aria-label="Intern at the Center for Spatial and Textual Analysis (opens in a new tab)">
-            <p className="font-bold text-lg sm:text-xl md:text-2xl text-[#fffefc] group-hover:underline duration-300 ease-in-out">Student Researcher</p>
+            <p className="font-bold text-lg sm:text-xl md:text-2xl text-[#fffefc] group-hover:underline duration-300 ease-in-out">Full Stack Engineer</p>
             <a href="https://cesta.stanford.edu" className="text-sm sm:text-base md:text-lg group-hover:text-[#fffefc] hover:text-[#342f3b] duration-300 ease-in-out leading-none" aria-label="Stanford's Center for Spatial and Textual Analysis (opens in a new tab)">Center for Spatial and Textual Analysis</a>
             <p className="text-xs sm:text-sm pt-3 group-hover:text-[#fffefc] duration-300 ease-in-out">
               Prototyed, developed, and deployed a full-stack application dedicated towards promoting pedagogical collaboration between community college
