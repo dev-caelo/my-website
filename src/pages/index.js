@@ -220,7 +220,7 @@ const IndexPage = () => {
             <p className="text-sm sm:text-base md:text-lg group-hover:text-[#fffefc] duration-300 ease-in-out">Resume</p>
           </div>
           <div className="w-8/12 md:w-9/12">
-            <a href="https://drive.google.com/file/d/19v7P2hJpeaqe_D5oi_aMMdrDg6IskSwl/view?usp=sharing" className="text-sm sm:text-base md:text-lg group-hover:text-[#fffefc] hover:text-[#342f3b] duration-300 ease-in-out leading-none" target="_blank" rel="noreferrer noopener" aria-label="My Resume! (Opens in a new tab)">carlodino/resume</a>
+            <a href="https://drive.google.com/file/d/1KFaWwX0dT9D5RdyBuO9iNQG3FzbGo76U/view?usp=sharing" className="text-sm sm:text-base md:text-lg group-hover:text-[#fffefc] hover:text-[#342f3b] duration-300 ease-in-out leading-none" target="_blank" rel="noreferrer noopener" aria-label="My Resume! (Opens in a new tab)">carlodino/resume</a>
           </div>
         </li>
       </ul>
