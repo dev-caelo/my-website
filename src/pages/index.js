@@ -10,7 +10,7 @@ function Skill({ name }) {
 
 const IndexPage = () => {
   return (
-    <main id="" className="w-full min-w-[400px] overflow-scroll font-raleway text-[#c1bcc4] bg-customPurpleBG p-8 sm:py-10 sm:px-20 md:px-40 lg:px-60 xl:px-80">
+    <main id="" className="w-full min-w-[400px] font-raleway text-[#c1bcc4] bg-customPurpleBG p-8 sm:py-10 sm:px-20 md:px-40 lg:px-60 xl:px-80">
 
       {/* Top */}
       <div className="text-[#fffefc] font-bold pb-[50px]">
