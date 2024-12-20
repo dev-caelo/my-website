@@ -35,7 +35,7 @@ const IndexPage = () => {
       </div>
       <div className="mb-3">
         <h className="text-[#fffefc] text-4xl sm:text-5xl md:text-6xl font-bold">I am Carlo Dino.</h>
-        <p className="text-xl sm:text-2xl md:text-3xl font-regular mt-3">Full-stack developer and aspiring AI researcher.</p>
+        <p className="text-xl sm:text-2xl md:text-3xl font-regular mt-3">A back-end software engineer based in the SF Bay Area.</p>
       </div>
 
       {/* Divider */}
@@ -44,12 +44,12 @@ const IndexPage = () => {
       {/* Introduction */}
       <div className="text-md sm:text-lg md:text-xl mr-15">
         <p className="leading-relaxed">
-          Hello there! My name is Carlo Dino and I am a full-stack engineer based in the Bay Area. I work to turn
-          innovative ideas into full-scale online applications to be shared across the web. I am currently an 
-          undergraduate student at Stanford, majoring in Computer Science with a focus on Artificial Intelligence.
+          Hello there! My name is Carlo Dino and I am a back-end engineer based in the Bay Area. I work to turn
+          innovative ideas into full-scale applications to be shared across the web. I am currently a coterminal 
+          Masters student at Stanford, majoring in Computer Science in both of my undergraduate and MS degrees.
 
           <br></br><br></br>
-          I look towards combining my experience in full-stack development with my academic studies to engineer AI-powered experiences.
+          I look towards combining my experience in software engineering with my academic studies to engineer efficient and robust services that power user experiences.
         </p>
       </div>
 
@@ -76,6 +76,20 @@ const IndexPage = () => {
           </a>
         </li>
         <li id="port-2" className="group rounded-2xl md:rounded-3xl bg-[#342f3b] hover:bg-[#4A4453] w-full my-6 ease-in-out duration-700 hover:duration-200 hover:translate-x-3 transition-all active:bg-[#342f3b]">
+          <a className="w-full h-full my-5 mx-8 flex flex-row" href="https://docs.google.com/presentation/d/1P_thLP0G39fU3FC67V7Vi84Y4xjoNIeU0hjbYuVn0vQ/edit?usp=share_link" target="_blank" rel="noreferrer noopener" aria-label="YouTube video overview of the RL model (opens in a new tab)">
+            <div className="w-1/6 pb-1 my-auto flex justify-center">
+              <h className="font-black text-6xl group-hover:text-[#fffefc] text-center mr-4">📱</h>
+            </div>
+            <div className="w-5/6 ml-4 my-2 sm:my-3 mr-12">
+              <h className="text-lg sm:text-xl md:text-2xl font-bold text-[#fffefc] group-hover:underline">Poole — A Group-Making App</h>
+              <p className="text-xs sm:text-sm group-hover:text-[#fffefc] md:mr-5">Poole is a mobile app conceptualized in Stanford's CS194 — Software Project Experience. The app is designed to facilitate group matching and event participation among students.</p>
+              <div className="w-full mt-2 flex flex-row">
+                <Skill name="React Native"></Skill> <Skill name="NodeJS"></Skill> <Skill name="GCP"></Skill> <Skill name="API"></Skill>
+              </div>
+            </div>
+          </a>
+        </li>
+        <li id="port-3" className="group rounded-2xl md:rounded-3xl bg-[#342f3b] hover:bg-[#4A4453] w-full my-6 ease-in-out duration-700 hover:duration-200 hover:translate-x-3 transition-all active:bg-[#342f3b]">
           <a className="w-full h-full my-5 mx-8 flex flex-row" href="https://youtu.be/U_GycbLmH1w?si=4lNMlBCCtmLsgKf2" target="_blank" rel="noreferrer noopener" aria-label="YouTube video overview of the RL model (opens in a new tab)">
             <div className="w-1/6 pb-1 my-auto flex justify-center">
               <h className="font-black text-5xl group-hover:text-[#fffefc] text-center mr-4">🕹️</h>
@@ -89,30 +103,17 @@ const IndexPage = () => {
             </div>
           </a>
         </li>
-        <li id="port-3" className="group rounded-2xl md:rounded-3xl bg-[#342f3b] hover:bg-[#4A4453] w-full my-6 ease-in-out duration-700 hover:duration-200 hover:translate-x-3 transition-all active:bg-[#342f3b]">
-          <a className="w-full h-full my-5 mx-8 flex flex-row" href="https://github.com/cjhutto/vaderSentiment" target="_blank" rel="noreferrer noopener" aria-label="Vader's Github Repo (opens in a new tab)">
+        <li id="port-4" className="group rounded-2xl md:rounded-3xl bg-[#342f3b] hover:bg-[#4A4453] w-full my-6 ease-in-out duration-700 hover:duration-200 hover:translate-x-3 transition-all active:bg-[#342f3b]">
+          <a className="w-full h-full my-5 mx-8 flex flex-row" href="https://drive.google.com/file/d/1fwW_O5MpF29k7AEXxH4yneHjKj1GxV_a/view?usp=sharing" target="_blank" rel="noreferrer noopener" aria-label="Vader's Github Repo (opens in a new tab)">
             <div className="w-1/6 pb-1 my-auto flex justify-center">
-              <h className="font-black text-5xl group-hover:text-[#fffefc] text-center mr-4">📖</h>
+              <h className="font-black text-5xl group-hover:text-[#fffefc] text-center mr-4">💬</h>
             </div>
             <div className="w-5/6 ml-4 my-2 sm:my-3 mr-12">
-              <h className="text-lg sm:text-xl md:text-2xl font-bold text-[#fffefc] group-hover:underline">Twitch Sentiment Analyser</h>
-              <p className="text-xs sm:text-sm group-hover:text-[#fffefc] md:mr-5">Developed a Flask app showcasing the perceived sentiment of a live Twitch stream. Utilized <a href="https://github.com/cjhutto/vaderSentiment" className="hover:text-[#342f3b] duration-200 underline" target="_blank" rel="noreferrer noopener" aria-label="Vader's Github Repo (opens in a new tab)">Vader</a> to analyze messages retrieved by Twitch API.</p>
+              <h className="text-lg sm:text-xl md:text-2xl font-bold text-[#fffefc] group-hover:underline">Fraud Moderation Bot</h>
+              <p className="text-xs sm:text-sm group-hover:text-[#fffefc] md:mr-5">Developed a Discord content moderation bot that detects, blocks, and reports financial scams and fraud
+              within real-time Discord messages to server moderators. Responses are powered with GPT-4.</p>
               <div className="w-full mt-2 flex flex-row row">
                 <Skill name="Python"></Skill> <Skill name="NLP"></Skill> <Skill name="Flask"></Skill> <Skill name="API"></Skill>
-              </div>
-            </div>
-          </a>
-        </li>
-        <li id="port-4" className="group rounded-2xl md:rounded-3xl bg-[#342f3b] hover:bg-[#4A4453] w-full my-6 ease-in-out duration-700 hover:duration-200 hover:translate-x-3 transition-all active:bg-[#342f3b]">
-          <a className="w-full h-full my-5 mx-8 flex flex-row" target="_blank" rel="noreferrer noopener" href="https://dev-caelo.github.io/CS80Q-Interface_Bias/" aria-label="My PSA website on Github Pages (opens in a new tab)">
-            <div className="w-1/6 pb-1 my-auto flex justify-center">
-              <h className="font-black text-5xl group-hover:text-[#fffefc] text-center mr-4">🔍</h>
-            </div>
-            <div className="w-5/6 ml-4 my-2 sm:my-3 mr-12">
-              <h className="text-lg sm:text-xl md:text-2xl font-bold text-[#fffefc] group-hover:underline">Interface Biases</h>
-              <p className="text-xs sm:text-sm group-hover:text-[#fffefc] md:mr-5">Created a PSA centered around common forms of interface bias found on the Internet. Guided by my <a href="https://stanforddaily.com/2018/10/16/classy-classes-cs80q-examines-race-and-gender-in-silicon-valley/" className="hover:text-[#342f3b] duration-200 underline" target="_blank" rel="noreferrer noopener" aria-label="An article about CS80Q (opens in a new tab)">CS80Q</a> professor, <a href="https://profiles.stanford.edu/48960" className="hover:text-[#342f3b] duration-200 underline" target="_blank" rel="noreferrer noopener" aria-label="Official Stanford profile of Cynthia Lee (opens in a new tab)">Cynthia Lee</a>.</p>
-              <div className="w-full mt-2 flex flex-row">
-                <Skill name="Bootstrap"></Skill> <Skill name="HTML"></Skill> <Skill name="CSS"></Skill> <Skill name="JS"></Skill>
               </div>
             </div>
           </a>
@@ -125,7 +126,24 @@ const IndexPage = () => {
       {/* Experience */}
       <h className="text-lg sm:text-xl md:text-2xl font-bold text-[#fffefc]">Experience</h>
       <ul className="w-full pt-2 md:pt-4">
-        <li className="group w-full flex flex-row">
+      <li className="group w-full flex flex-row">
+          <div className="w-4/12 md:w-3/12">
+            <p className="sm:text-lg group-hover:text-[#fffefc] duration-300 ease-in-out">2024 - 2024</p>
+          </div>
+          <a className="w-8/12 md:w-9/12 duration-300 ease-in-out" href="https://www.coinbase.com/about" target="_blank" rel="noreferrer noopener" aria-label="Intern at the Coinbase (opens in a new tab)">
+            <p className="font-bold text-lg sm:text-xl md:text-2xl text-[#fffefc] group-hover:underline duration-300 ease-in-out">Software Engineer Intern</p>
+            <a href="https://cesta.stanford.edu" className="text-sm sm:text-base md:text-lg group-hover:text-[#fffefc] hover:text-[#342f3b] duration-300 ease-in-out leading-none" aria-label="Coinbase's About Page (opens in a new tab)">Coinbase</a>
+            <p className="text-xs sm:text-sm pt-3 group-hover:text-[#fffefc] duration-300 ease-in-out">
+              Designed a modular seeding service interface for internal Coinbase database systems. Now in production, this tool enables Coinbase teams to perform low latency search over a billion transaction records.
+            </p>
+            <div className="w-full md:flex md:flex-row">
+              <div className="w-full md:w-fit mt-3 flex flex-row">
+                <Skill name="Go"></Skill> <Skill name="Elasticsearch"></Skill> <Skill name="Snowflake"></Skill> <Skill name="Datadog"></Skill>
+              </div>
+            </div>
+          </a>
+        </li>
+        <li className="group w-full flex flex-row pt-12">
           <div className="w-4/12 md:w-3/12">
             <p className="sm:text-lg group-hover:text-[#fffefc] duration-300 ease-in-out">2022 - 2023</p>
           </div>
@@ -220,7 +238,7 @@ const IndexPage = () => {
             <p className="text-sm sm:text-base md:text-lg group-hover:text-[#fffefc] duration-300 ease-in-out">Resume</p>
           </div>
           <div className="w-8/12 md:w-9/12">
-            <a href="https://drive.google.com/file/d/1KFaWwX0dT9D5RdyBuO9iNQG3FzbGo76U/view?usp=sharing" className="text-sm sm:text-base md:text-lg group-hover:text-[#fffefc] hover:text-[#342f3b] duration-300 ease-in-out leading-none" target="_blank" rel="noreferrer noopener" aria-label="My Resume! (Opens in a new tab)">carlodino/resume</a>
+            <a href="https://drive.google.com/file/d/1s79IH7N0jMdaBnjuQQso4gt3FE4xYsKj/view?usp=sharing" className="text-sm sm:text-base md:text-lg group-hover:text-[#fffefc] hover:text-[#342f3b] duration-300 ease-in-out leading-none" target="_blank" rel="noreferrer noopener" aria-label="My Resume! (Opens in a new tab)">carlodino/resume</a>
           </div>
         </li>
       </ul>
