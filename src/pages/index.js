@@ -4,8 +4,8 @@ import '@fontsource-variable/raleway';
 /* Local Components */
 function Skill({ name }) {
   return <div className="w-fit mr-1 bg-[#4E435E] group-hover:bg-[#6a5c81] rounded-2xl">
-            <p className="text-[#FDF7FF] font-light text-xs px-2 py-1">{name}</p>
-          </div>;
+    <p className="text-[#FDF7FF] font-light text-xs px-2 py-1">{name}</p>
+  </div>;
 }
 
 const IndexPage = () => {
@@ -25,7 +25,7 @@ const IndexPage = () => {
           </li>
           <li className="pr-5 md:pr-[30px]">
             <a href="#portfolio">
-            <div className="group hover:text-[#c1bcc4]">
+              <div className="group hover:text-[#c1bcc4]">
                 <div className="bg-customPurpleBG pb-3"><p className="text-lg md:text-xl">Portfolio</p></div>
                 <div className="w-full h-1 md:h-[5px] md:mt-1 group-hover:bg-[#8e8691] ease-out duration-300"></div>
               </div>
@@ -35,7 +35,7 @@ const IndexPage = () => {
       </div>
       <div className="mb-3">
         <h className="text-[#fffefc] text-4xl sm:text-5xl md:text-6xl font-bold">I am Carlo Dino.</h>
-        <p className="text-xl sm:text-2xl md:text-3xl font-regular mt-3">A back-end software engineer based in the SF Bay Area.</p>
+        <p className="text-xl sm:text-2xl md:text-3xl font-regular mt-3">A back-end software engineer based in San Francisco.</p>
       </div>
 
       {/* Divider */}
@@ -44,8 +44,8 @@ const IndexPage = () => {
       {/* Introduction */}
       <div className="text-md sm:text-lg md:text-xl mr-15">
         <p className="leading-relaxed">
-          Hello there! My name is Carlo Dino and I am a back-end engineer based in the Bay Area. I work to turn
-          innovative ideas into full-scale applications to be shared across the web. I am currently a coterminal 
+          Hello there! My name is Carlo Dino and I am a back-end engineer based in San Francisco. I work to turn
+          innovative ideas into full-scale applications to be shared across the web. I am currently a coterminal
           Masters student at Stanford, majoring in Computer Science in both of my undergraduate and MS degrees.
 
           <br></br><br></br>
@@ -111,7 +111,7 @@ const IndexPage = () => {
             <div className="w-5/6 ml-4 my-2 sm:my-3 mr-12">
               <h className="text-lg sm:text-xl md:text-2xl font-bold text-[#fffefc] group-hover:underline">Fraud Moderation Bot</h>
               <p className="text-xs sm:text-sm group-hover:text-[#fffefc] md:mr-5">Developed a Discord content moderation bot that detects, blocks, and reports financial scams and fraud
-              within real-time Discord messages to server moderators. Responses are powered with GPT-4.</p>
+                within real-time Discord messages to server moderators. Responses are powered with GPT-4.</p>
               <div className="w-full mt-2 flex flex-row row">
                 <Skill name="Python"></Skill> <Skill name="NLP"></Skill> <Skill name="Flask"></Skill> <Skill name="API"></Skill>
               </div>
@@ -126,7 +126,7 @@ const IndexPage = () => {
       {/* Experience */}
       <h className="text-lg sm:text-xl md:text-2xl font-bold text-[#fffefc]">Experience</h>
       <ul className="w-full pt-2 md:pt-4">
-      <li className="group w-full flex flex-row">
+        <li className="group w-full flex flex-row">
           <div className="w-4/12 md:w-3/12">
             <p className="sm:text-lg group-hover:text-[#fffefc] duration-300 ease-in-out">2024 - 2024</p>
           </div>
@@ -152,7 +152,7 @@ const IndexPage = () => {
             <a href="https://cesta.stanford.edu" className="text-sm sm:text-base md:text-lg group-hover:text-[#fffefc] hover:text-[#342f3b] duration-300 ease-in-out leading-none" aria-label="Stanford's Center for Spatial and Textual Analysis (opens in a new tab)">Center for Spatial and Textual Analysis</a>
             <p className="text-xs sm:text-sm pt-3 group-hover:text-[#fffefc] duration-300 ease-in-out">
               Prototyed, developed, and deployed a full-stack application dedicated towards promoting pedagogical collaboration between community college
-              instructors. Collaborated with Californian instructors directly through <a href="https://sgs.stanford.edu/outreach/community-college-engagement/epic-community-college-faculty-fellowship-program" className="hover:text-[#342f3b] underline" target="_blank" rel="noreferrer noopener" aria-label="Stanford School of Education website (opens in a new tab)">Stanford's EPIC program</a> to 
+              instructors. Collaborated with Californian instructors directly through <a href="https://sgs.stanford.edu/outreach/community-college-engagement/epic-community-college-faculty-fellowship-program" className="hover:text-[#342f3b] underline" target="_blank" rel="noreferrer noopener" aria-label="Stanford School of Education website (opens in a new tab)">Stanford's EPIC program</a> to
               receive feedback and perform user testing. This work has been featured in <a href="https://cesta.stanford.edu/publications-all/anthology" className="hover:text-[#342f3b] underline" target="_blank" rel="noreferrer noopener" aria-label="CESTA's 2022 Anthology (opens in a new tab)">CESTA's 2022 Anthology</a>, CESTA's upcoming 2023 Anthology, and was showcased at <a href="https://urtc.mit.edu" className="hover:text-[#342f3b] underline" target="_blank" rel="noreferrer noopener" aria-label="MIT's current URTC page (opens in a new tab)">MIT's 2023 URTC</a>.
             </p>
             <div className="w-full md:flex md:flex-row">
@@ -160,7 +160,7 @@ const IndexPage = () => {
                 <Skill name="React"></Skill> <Skill name="NoSQL"></Skill> <Skill name="NodeJS"></Skill> <Skill name="AWS"></Skill>
               </div>
               <div className="w-full md:w-fit mt-3 flex flex-row">
-                <Skill name="Markdown"></Skill> <Skill name="S3"></Skill> 
+                <Skill name="Markdown"></Skill> <Skill name="S3"></Skill>
               </div>
             </div>
           </a>
@@ -248,13 +248,13 @@ const IndexPage = () => {
 
       <div className="w-full md:w-9/12">
         <p className="text-xs sm:text-sm md:text-base font-light">
-          Hello! The structure and components of this site were modeled on Figma and implemented using React, Tailwind, and Gatsby. The text 
-          used is Raleway. Site design was heavily inspired by <a href="https://alexjpate.com" className="text-xs sm:text-sm md:text-base group-hover:text-[#fffefc] hover:text-[#342f3b] duration-300 ease-in-out underline" target="_blank" rel="noreferrer noopener" aria-label="Alex Pate's website! (Opens in a new tab)">Alex Pate's</a>, <a href="https://brittanychiang.com" className="text-xs sm:text-sm md:text-base group-hover:text-[#fffefc] hover:text-[#342f3b] duration-300 ease-in-out underline" target="_blank" rel="noreferrer noopener" aria-label="Brittany Chiang's website! (Opens in a new tab)">Brittany Chiang's</a>, and <a href="https://www.justinchi.me" className="text-xs sm:text-sm md:text-base group-hover:text-[#fffefc] hover:text-[#342f3b] duration-300 ease-in-out underline" target="_blank" rel="noreferrer noopener" aria-label="Justin Chi's website! (Opens in a new tab)">Justin Chi's</a> own 
+          Hello! The structure and components of this site were modeled on Figma and implemented using React, Tailwind, and Gatsby. The text
+          used is Raleway. Site design was heavily inspired by <a href="https://alexjpate.com" className="text-xs sm:text-sm md:text-base group-hover:text-[#fffefc] hover:text-[#342f3b] duration-300 ease-in-out underline" target="_blank" rel="noreferrer noopener" aria-label="Alex Pate's website! (Opens in a new tab)">Alex Pate's</a>, <a href="https://brittanychiang.com" className="text-xs sm:text-sm md:text-base group-hover:text-[#fffefc] hover:text-[#342f3b] duration-300 ease-in-out underline" target="_blank" rel="noreferrer noopener" aria-label="Brittany Chiang's website! (Opens in a new tab)">Brittany Chiang's</a>, and <a href="https://www.justinchi.me" className="text-xs sm:text-sm md:text-base group-hover:text-[#fffefc] hover:text-[#342f3b] duration-300 ease-in-out underline" target="_blank" rel="noreferrer noopener" aria-label="Justin Chi's website! (Opens in a new tab)">Justin Chi's</a> own
           portfolio pages.
         </p>
         <p className="font-bold text-xl sm:text-2xl md:text-3xl text-[#fffefc] pt-16">@ Carlo Dino</p>
       </div>
-      
+
 
 
       {/* Divider */}
