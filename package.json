@@ -8,8 +8,7 @@
     "gatsby"
   ],
   "engines": {
-    "node": ">=25.0.0",
-    "npm": ">=11.0.0"
+    "node": "18.x"
   },
   "scripts": {
     "develop": "gatsby develop",
